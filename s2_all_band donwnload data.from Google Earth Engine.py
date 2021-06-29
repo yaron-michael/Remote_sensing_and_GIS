@@ -9,7 +9,7 @@ Created on Tue Oct  1 11:35:47 2019
 import ee
 import os
 from ipygee import *
-import geopandas as gpd
+#import geopandas as gpd
 import pandas as pd 
 from datetime import datetime
 import openpyxl
@@ -18,11 +18,11 @@ import xlsxwriter
 ee.Initialize()
 
 
-feature_to_use ='users/yaron1205/DAVID_BONFL/South2020'
+feature_to_use ='users/venusdatae2020a/109cont'
 
-id_colum_to_use = 'field'
+id_colum_to_use = 'name1'
 
-patch_to_save_file_with_file_name = '/home/yaron/South2020.xlsx'
+patch_to_save_file_with_file_name = 'D:/New folder (3)/S2.xlsx'
 
 
 
